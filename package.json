@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "sloth-serve",
+    "build": "sloth-build"
   },
   "keywords": [],
   "author": "confused-Techie",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "sloth": "github:confused-techie/sloth"
   }
 }

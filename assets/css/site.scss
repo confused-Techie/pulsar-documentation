@@ -1,0 +1,7 @@
+@use 'base';
+
+body {
+  background-color: base.$primary-color;
+  font: 100% base.$font-stack;
+  color: white;
+}
