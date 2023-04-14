@@ -6,8 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "sloth-serve",
     "build": "sloth-build",
-    "dev:serve": "cross-env NODE_ENV=development concurrently -n node,content -c blue,yellow 'npm:serve' 'npm:watch:build'",
-    "watch:build": "nodemon --exec \"npm run build\""
+    "dev:serve": "cross-env NODE_ENV=development concurrently -n node,content -c blue,yellow 'npm:watch:build' 'npm:serve'",
+    "watch:build": "nodemon --exec \"npm run build\"",
+    "watch:serve": "nodemon --exec \"npm run serve\""
   },
   "keywords": [],
   "author": "confused-Techie",
@@ -15,13 +16,15 @@
   "devDependencies": {
     "concurrently": "^8.0.1",
     "cross-env": "^7.0.3",
-    "nodemon": "^2.0.22",
-    "sloth": "github:confused-techie/sloth"
+    "nodemon": "^2.0.22"
   },
   "nodemonConfig": {
     "ext": "js,json,md,ejs,css,scss",
     "ignore": [
       "./dist"
     ]
+  },
+  "dependencies": {
+    "sloth": "file:../pulsar-edit/pulsar-docs"
   }
 }

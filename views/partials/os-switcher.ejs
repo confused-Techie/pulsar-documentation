@@ -1,0 +1,11 @@
+<ul class='tab_links'>
+<% for (const os in os_list) { %>
+  <li id='<%=os%>'><%=os%></li>
+<% } %>
+</ul>
+
+<% for (const os in os_list) { %>
+  <div class='tab_box' id='home_<%=os%>'>
+    <%=os_list[os]%>
+  </div>
+<% } %>
