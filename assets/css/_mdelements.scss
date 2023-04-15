@@ -1,0 +1,135 @@
+// Tables
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid black;
+	//background-color: red;
+	td {
+		text-align: left;
+		border: 1px solid black;
+		padding: .5em 1em .5em 1em;
+	}
+	th {
+		border: 1px solid black;
+		border-bottom: 2px solid black;
+		padding: .5em 1em .5em 1em;
+		background-color: #111111;
+	}
+	tr {
+		&:nth-child(even) {
+			background-color: #3d4148;
+		}
+		&:hover {
+			//background-color: purple;
+		}
+	}
+}
+
+// Code blocks
+// Standard block
+pre {
+	code.hljs {
+		display: block;
+		overflow-x: auto;
+		padding: 1em;
+		background-color: #3d4148;
+		border: 1px solid black;
+	}
+}
+
+// Named block label
+.named-fence-block {
+  position: relative;
+  padding-top: 1em;
+	background-color: #3d4148;
+	border: 1px solid black;
+	code.hljs {
+		border: none;
+	}
+}
+
+.named-fence-filename {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 0.5em;
+  font-weight: bold;
+  color: #000000;
+  background-color: #c0c0c0;
+  opacity: 0.6;
+}
+
+// Code copy button
+// Need to install icon font
+.markdown-it-code-copy {
+}
+
+// Code tabs (copied from https://github.com/cncws/markdown-it-codetabs/blob/main/assets/codetabs.scss)
+.code-tabs {
+    border: 1px solid black;
+		border-collapse: collapse;
+    // border-radius: 3px;
+    pre, input {
+        display: none;
+				margin: 0;
+    }
+		pre code.hljs {
+			border: none;
+		}
+    input:checked + pre {
+        display: block;
+    }
+    label {
+        color: black;
+				border-right: 1px solid black;
+    }
+    input:checked + label {
+        color: white;
+    }
+    ul {
+        font-size: 0;
+        padding: 0;
+        white-space: nowrap;
+        overflow: auto;
+        user-select: none;
+        border-bottom: 1px solid black;
+				background-color: #c0c0c0;
+				opacity: 0.6;
+    }
+    li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    }
+    label {
+        cursor: pointer;
+        user-select: none;
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 14px;
+    }
+    li ~ li::before {
+        content: "";
+        height: 12px;
+        width: 1px;
+        background: rgba(191, 191, 191, 1);
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// Containers
+
+.warning {
+	background-color: yellow;
+	color: black;
+	border: 1px solid black;
+}
+
+.info {
+	background-color: teal;
+	color: white;
+	border: 1px solid black;
+}
