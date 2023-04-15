@@ -14,6 +14,10 @@ module.exports = {
     staticSourceDirectory: "./assets/static",
     staticBuildDirectory: "./dist",
     defaultView: "doc",
-    viewPagePath: "./views/pages"
+    viewPagePath: "./views/pages",
+    templates: {
+      robots: true,
+      nojekyll: "./dist/"
+    }
   }
 }
