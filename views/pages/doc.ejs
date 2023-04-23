@@ -1,22 +1,14 @@
 <%- include("../partials/head", { title }); %>
 <%- include("../partials/header"); %>
+<%- include("../partials/sidebar.ejs"); %>
 
 <body>
-<<<<<<< HEAD
-  <%- include("../partials/sidebar.ejs"); %>
-  
-<h1><%=title%></h1>
-
-<%- content %>
-
-=======
   <main>
       <div class="content">
         <h1><%=title%></h1>
         <%- content %>
       </div>
   </main>
->>>>>>> fcf4538 (add basic styling)
 </body>
 
 <%- include("../partials/footer", { title }); %>
