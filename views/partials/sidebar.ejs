@@ -1,0 +1,34 @@
+<nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Pulsar Documentation</h3>
+  </div>
+
+  <ul class="list-unstyled components">
+
+    <% for (const bar in _sidebar) { %>
+      <li class="active">
+        <a href="<%=_sidebar[bar]._link%>" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <%=bar%>
+        </a>
+        <ul class="collapse list-unstyled" id="submenu">
+          <% for (const item in _sidebar[bar]._items) { %>
+            <li>
+              <a href="<%=_sidebar[bar]._items[item]._link%>">
+                <%=item%>
+              </a>
+              <ul class="collapse list-unstyled" id="submenu">
+                <% for (const sub in _sidebar[bar]._items[item]._items) { %>
+                  <li>
+                    <a href="<%=_sidebar[bar]._items[item]._items[sub]._link%>">
+                      <%=sub%>
+                    </a>
+                  </li>
+                <% } %>
+            </li>
+          <% } %>
+          </ul>
+        </li>
+    <% } %>
+
+  </ul>
+</nav>

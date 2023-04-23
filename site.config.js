@@ -18,6 +18,7 @@ module.exports = {
     templates: {
       robots: true,
       nojekyll: "./dist/"
-    }
+    },
+    sidebar: "./sidebar.json"
   }
 }

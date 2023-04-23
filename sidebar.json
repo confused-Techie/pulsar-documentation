@@ -1,0 +1,24 @@
+{
+  "Getting Started": {
+    "_link": "/pulsar-docs/getting-started/",
+    "_items": {
+      "Why Pulsar": {
+        "_link": "/pulsar-docs/getting-started/why-pulsar.html",
+        "_items": {
+          "The Nucleus of Pulsar": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-nuceus-of-pulsar"
+          },
+          "The Native Web": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-native-web"
+          },
+          "JavaScript, Meet C++": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#javascript-meet-c"
+          }
+        }
+      }
+    }
+  },
+  "Using Pulsar": {
+    "_link": "/pulsar-docs/using-pulsar"
+  }
+}
