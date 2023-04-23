@@ -1,7 +1,34 @@
 @use 'base';
+@use 'footer';
 
 body {
   background-color: base.$primary-color;
   font: 100% base.$font-stack;
-  color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 950px;
+  margin: auto;
+  font-size: 1.1rem;
 }

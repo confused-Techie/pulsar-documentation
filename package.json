@@ -16,15 +16,13 @@
   "devDependencies": {
     "concurrently": "^8.0.1",
     "cross-env": "^7.0.3",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "sloth": "github:confused-techie/sloth"
   },
   "nodemonConfig": {
     "ext": "js,json,md,ejs,css,scss",
     "ignore": [
       "./dist"
     ]
-  },
-  "dependencies": {
-    "sloth": "file:../pulsar-edit/pulsar-docs"
   }
 }

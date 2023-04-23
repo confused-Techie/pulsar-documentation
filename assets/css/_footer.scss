@@ -1,0 +1,59 @@
+/* Footer CSS for views/partials/footer.ejs */
+
+footer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 0 1.5rem 0;
+  text-align: center;
+  //font-size: 0.8rem;
+
+  .socialsBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  a {
+    margin: .25rem 0 .25rem 0;
+    display: block;
+    //font-size: .875rem;
+    line-height: 1.25rem;
+    color: blue; //TODO: change to var
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    transition-duration: 150ms;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  i {
+    font-size: 1.9rem
+  }
+
+  .linksBox {
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 950px;
+    justify-content: space-between;
+    text-align: left;
+    gap: 1.5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1.5rem 0 1.5rem 0;
+    //TODO: Add media queries for responsive layout
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+
+  #pulsar-logo-name {
+    max-height: 3.5rem;
+  }
+}
