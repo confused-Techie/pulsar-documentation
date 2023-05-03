@@ -7,7 +7,7 @@ footer {
   gap: 1.5rem;
   padding: 1.5rem 0 1.5rem 0;
   text-align: center;
-  border-top: 1px solid black;
+  border-top: 1px solid black; //TODO: change to var
   //font-size: 0.8rem;
 
   .socialsBar {
@@ -45,8 +45,8 @@ footer {
     justify-content: space-between;
     text-align: left;
     gap: 1.5rem;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black; //TODO: Change to var
+    border-bottom: 1px solid black; //TODO: Change to var
     padding: 1.5rem 0 1.5rem 0;
     //TODO: Add media queries for responsive layout
     h2 {

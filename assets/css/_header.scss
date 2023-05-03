@@ -1,0 +1,25 @@
+header {
+  background-color: silver; //TODO: Set via var
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: .75rem;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 1.5rem;
+    width: 100%
+  }
+
+  #pulsar-logo-name {
+    height: 2.5rem;
+  }
+
+  a {
+    color: white; //TODO: Set via var
+
+  }
+}

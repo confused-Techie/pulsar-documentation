@@ -1,5 +1,12 @@
 @use 'base';
+@use 'header';
+@use 'sidebar';
 @use 'footer';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: base.$primary-color;
@@ -28,7 +35,8 @@ a {
 }
 
 .content {
-  max-width: 950px;
+  //max-width: 950px;
+  max-width: 400px;
   margin: auto;
   font-size: 1.1rem;
 }

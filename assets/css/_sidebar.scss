@@ -1,0 +1,36 @@
+nav#sidebar {
+  width: 300px;
+  position: fixed;
+  height: 100%;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  margin-right: 10px;
+  line-height: 1.5rem;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .level1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .level2 {
+    font-size: 1.1rem;
+  }
+
+  .level3 {
+    font-size: 0.9rem;
+  }
+
+
+}
