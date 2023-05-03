@@ -1,34 +1,45 @@
-<nav id="sidebar">
-  <div class="sidebar-header">
-    <h3>Pulsar Documentation</h3>
+
+<!-- Sidebar based off fantastic work by @Daeraxa -->
+<nav>
+  <div>
+    <ul class="book-list">
+
+      <% for (const book in _sidebar) { %>
+        <li>
+          <a href="<%=_sidebar[book]._link%>">
+            <%=book%>
+          </a>
+        </li>
+      <% } %>
+
+    </ul>
   </div>
 
-  <ul class="list-unstyled components">
+  <div>
 
-    <% for (const bar in _sidebar) { %>
-      <li class="active">
-        <a href="<%=_sidebar[bar]._link%>" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-          <%=bar%>
-        </a>
-        <ul class="collapse list-unstyled" id="submenu">
-          <% for (const item in _sidebar[bar]._items) { %>
-            <li>
-              <a href="<%=_sidebar[bar]._items[item]._link%>">
-                <%=item%>
-              </a>
-              <ul class="collapse list-unstyled" id="submenu">
-                <% for (const sub in _sidebar[bar]._items[item]._items) { %>
-                  <li>
-                    <a href="<%=_sidebar[bar]._items[item]._items[sub]._link%>">
-                      <%=sub%>
-                    </a>
-                  </li>
-                <% } %>
-            </li>
-          <% } %>
+    <!-- Now we need to find the book we are in, based on the doc frontmatter -->
+
+    <% for (const book in _sidebar) { %>
+      <% if (book === curbook) { %>
+        <% for (const chapter in _sidebar[book]._items) { %>
+          <h3 class="chapter">
+            <a href="<%=_sidebar[book]._items[chapter]._link%>">
+              <%=chapter%>
+            </a>
+          </h3>
+          <ul>
+            <% for (const section in _sidebar[book]._items[chapter]._items) { %>
+              <li class="section">
+                <a href="<%=_sidebar[book]._items[chapter]._items[section]._link%>">
+                  <%=section%>
+                </a>
+              </li>
+            <% } %>
           </ul>
-        </li>
+        <% } %>
+      <% } %>
     <% } %>
 
-  </ul>
+  </div>
+
 </nav>

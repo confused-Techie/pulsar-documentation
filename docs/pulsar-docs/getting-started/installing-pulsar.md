@@ -1,5 +1,6 @@
 ---
 title: Installing Pulsar
+curbook: Getting Started
 ---
 
 <!--TODO: We need a section here somewhere about how to get pulsar onto the PATH for all systems as it seems to be broken on mac and windows. Also needed for tar.gz and appimage-->

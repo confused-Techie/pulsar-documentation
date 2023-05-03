@@ -1,5 +1,6 @@
 ---
 title: Why Pulsar?
+curbook: Getting Started
 ---
 
 There are a lot of text editors out there; why should you spend your time
