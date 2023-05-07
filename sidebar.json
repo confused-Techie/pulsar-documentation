@@ -13,12 +13,111 @@
           },
           "JavaScript, Meet C++": {
             "_link": "/pulsar-docs/getting-started/why-pulsar.html#javascript-meet-c"
+          },
+          "An Open-Source Text Editor": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#an-open-source-text-editor"
+          }
+        }
+      },
+      "Installing Pulsar": {
+        "_link": "/pulsar-docs/getting-started/installing-pulsar.html",
+        "_items": {
+          "Install": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+          },
+          "Package Managers": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+          },
+          "Updating Pulsar": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+          },
+          "Portable Mode": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
           }
         }
       }
     }
   },
   "Using Pulsar": {
-    "_link": "/pulsar-docs/using-pulsar"
+    "_link": "/pulsar-docs/using-pulsar",
+    "_items": {
+      "Pulsar Basics": {
+        "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html",
+        "_items": {
+          "Terminology": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html#terminology"
+          },
+          "Command Palette": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html#command-palette"
+          },
+          "Settings and Preferences": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html#settings-and-preferences"
+          },
+          "Open, Modifying, and Saving Files": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html#open-modifying-and-saving-files"
+          },
+          "Opening Directories": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-basics.html#opening-directories"
+          }
+        }
+      },
+      "Moving in Pulsar": {
+        "_link": "/pulsar-docs/using-pulsar/moving-in-pulsar.html",
+        "_items": {
+          "Additional Movement and Selection Commands": {
+            "_link": "/pulsar-docs/using-pulsar/moving-in-pulsar.html#additional-movement-and-selection-commands"
+          },
+          "Navigating by Symbols": {
+            "_link": "/pulsar-docs/using-pulsar/moving-in-pulsar.html#navigating-by-symbols"
+          },
+          "Bookmarks": {
+            "_link": "/pulsar-docs/using-pulsar/moving-in-pulsar.html#bookmarks"
+          }
+        }
+      },
+      "Pulsar Packages": {
+        "_link": "/pulsar-docs/using-pulsar/pulsar-packages.html",
+        "_items": {
+          "Package Settings": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-packages.html#package-settings"
+          },
+          "Pulsar Themes": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-packages.html#pulsar-themes"
+          },
+          "Command Line": {
+            "_link": "/pulsar-docs/using-pulsar/pulsar-packages.html#command-line"
+          }
+        }
+      },
+      "Pulsar Selections": {
+        "_link": "/pulsar-docs/using-pulsar/pulsar-selections.html"
+      },
+      "Editing and Deleting Text": {
+        "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html",
+        "_items": {
+          "Basic Manipulation": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#basic-manipulation"
+          },
+          "Deleting and Cutting": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#deleting-and-cutting"
+          },
+          "Multiple Cursors and Selections": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#multiple-cursors-and-selections"
+          },
+          "Whitespace": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#whitespace"
+          },
+          "Brackets": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#brackets"
+          },
+          "Encoding": {
+            "_link": "/pulsar-docs/using-pulsar/editing-and-deleting-text.html#encoding"
+          }
+        }
+      }
+    }
+  },
+  "Pulsar Core Packages & Features": {
+
   }
 }
