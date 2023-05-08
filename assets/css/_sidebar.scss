@@ -1,5 +1,5 @@
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 70px; //TODO: use variable to set same as navbar height
   right: auto;
   bottom: 0;
@@ -9,6 +9,7 @@
   width: 300px;
   margin: 0;
   padding-left: 2rem;
+  float: left;
   //TODO: Scrollbar settings, colour, width etc.
 
   ul {

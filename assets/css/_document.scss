@@ -1,11 +1,10 @@
 .document {
-  display: block;
   padding-top: 75px; //TODO: set via navbar variable
-  padding-left: calc(300px + 2rem);
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
+  overflow-y: auto;
 
   .page {
     width: 700px;
