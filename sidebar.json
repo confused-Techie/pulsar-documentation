@@ -18,7 +18,31 @@
       }
     }
   },
-  "Using Pulsar": {
-    "_link": "/pulsar-docs/using-pulsar"
+  "Folder 2": {
+    "_link": "/pulsar-docs/folder-2",
+    "_items": {
+      "File 1": {
+        "_link": "/pulsar-docs/folder-2/file1.md",
+        "_items": {
+          "Title 1": {
+            "_link": "/pulsar-docs/folder-2/file1.html#title-1"
+          },
+          "Title 2": {
+            "_link": "/pulsar-docs/folder-2/file1.html#title-2"
+          }
+        }
+      },
+      "File 2": {
+        "_link": "/pular-docs/folder-2/file2.md",
+        "_items": {
+          "Title 1": {
+            "_link": "/pulsar-docs/folder-2/file2.html#title-1"
+          },
+          "Title 2": {
+            "_link": "/pulsar-docs/folder-2/file2.html#title-2"
+          }
+        }
+      }
+    }
   }
 }

@@ -22,13 +22,6 @@ footer {
     display: block;
     //font-size: .875rem;
     line-height: 1.25rem;
-    color: blue; //TODO: change to var
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
-    transition-duration: 150ms;
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   i {

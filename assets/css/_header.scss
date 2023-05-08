@@ -5,10 +5,19 @@ header {
   align-items: center;
   gap: 1.5rem;
   padding: .75rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px; //TODO: Set via variable
+  //TODO: Add media queries for padding l/r
+  z-index: 50;
 
-  nav {
+  div, nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 0;
     gap: 1.5rem;
     width: 100%

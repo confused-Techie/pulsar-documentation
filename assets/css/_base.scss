@@ -1,2 +1,47 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #fff;
+
+//selectively taken from https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css
+
+*, ::before, ::after { box-sizing: border-box; }
+
+html { line-sizing: normal; }
+
+body { margin: 0; }
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.00rem; }
+h5 { font-size: 0.83rem; }
+h6 { font-size: 0.67rem; }
+
+h1 { margin: 0.67em 0; }
+
+pre { white-space: pre-wrap; }
+
+hr {
+  border-style: solid;
+  border-width: 1px 0 0;
+  color: inherit;
+  height: 0;
+  overflow: visible;
+}
+
+img, svg, video, canvas {
+  height: auto;
+}
+
+img { border-style: none; }
+
+svg { overflow: hidden; }
+
+article, aside, details, figcaption, figure, hgroup, section {
+  display: block;
+}
+
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}

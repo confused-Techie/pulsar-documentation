@@ -1,14 +1,17 @@
 <%- include("../partials/head", { title }); %>
-<%- include("../partials/header"); %>
-<%- include("../partials/sidebar.ejs"); %>
 
 <body>
   <main>
-      <div class="content">
-        <h1><%=title%></h1>
-        <%- content %>
+    <%- include("../partials/header"); %>
+    <div class="content">
+      <%- include("../partials/sidebar.ejs"); %>
+      <div class="document">
+        <div class="page">
+          <h1><%=title%></h1>
+          <%- content %>
+        </div>
       </div>
+    </div>
+    <%- include("../partials/footer", { title }); %>
   </main>
 </body>
-
-<%- include("../partials/footer", { title }); %>
