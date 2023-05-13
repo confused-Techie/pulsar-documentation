@@ -15,12 +15,12 @@
   ul {
     list-style: none;
     margin: 0;
-    line-height: 1rem;
+    //line-height: 1rem;
   }
 
   .book-list {
     font-size: 1.6rem;
-    line-height: 2rem;
+    //line-height: 2rem;
     font-weight: 600;
     padding: 1.5rem 0 0 0;
 
@@ -31,7 +31,7 @@
       padding: .5rem 1rem .5rem 1rem;
       height: auto;
       display: flex;
-      align-items: center;
+      align-items: baseline;
 
       &:hover { //TODO: use mixin?
         background-color: red;
@@ -43,6 +43,7 @@
       }
 
       a {
+        line-height: 0;
       }
 
     }
@@ -62,44 +63,3 @@
   }
 
 }
-
-
-
-
-
-
-
-/*
-
-margin-left: 1rem;
-width: 300px;
-overflow-y: auto;
-display: block;
-padding: 0 1.5rem 2.5rem 1rem;
-
-
-nav#sidebar {
-  width: 300px;
-  height: auto;
-  overflow: auto;
-  text-decoration: none;
-  padding-left: 1.5rem;
-  margin-right: 10px;
-
-  div#books {
-    font-size: 1.8rem;
-    line-height: 3rem;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  h3 {
-    font-size: 1.4rem;
-  }
-
-}
-*/
