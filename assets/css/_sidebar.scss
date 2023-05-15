@@ -1,15 +1,7 @@
 .sidebar {
-  position: sticky;
-  top: 70px; //TODO: use variable to set same as navbar height
-  right: auto;
-  bottom: 0;
-  left: 0;
-  z-index: 40;
+
   overflow-y: auto;
-  width: 300px;
-  margin: 0;
   padding-left: 2rem;
-  float: left;
   //TODO: Scrollbar settings, colour, width etc.
 
   ul {
@@ -28,7 +20,8 @@
     }
 
     li {
-      padding: .5rem 1rem .5rem 1rem;
+      margin: .5rem .5rem .5rem .5rem;
+      padding: .5rem .5rem .5rem .5rem;
       height: auto;
       display: flex;
       align-items: baseline;
@@ -49,17 +42,22 @@
     }
   }
 
-  .chapter {
-    margin-top: 0;
-    padding-top: 1.2rem;
-  }
+  .chapters {
+    margin-left: 1rem;
 
-  .chapter-list {
-    padding: 0 0 0 0.5rem;
-
-    li {
-      padding: 0 0 .6rem 0;
+    .chapter {
+      margin-top: 0;
+      padding-top: 1.2rem;
     }
+
+    .chapter-list {
+      padding: 0 0 0 0.5rem;
+
+      li {
+        padding: 0 0 .6rem 0;
+      }
+    }
+
   }
 
 }
