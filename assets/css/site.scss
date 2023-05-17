@@ -36,20 +36,10 @@ a { //TODO: set link to theme colour var
 @media (min-width: 800px) {
   .content {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 300px minmax(0, 1fr);
     grid-gap: 16px;
     margin-top: 70px;
-  }
-
-  .sidebar {
-    align-self: start;
+    height: 100vh;
+    overflow: hidden;
   }
 }
-
-/*
-.content {
-  margin-left: 0;
-  margin-right: auto;
-  max-width: 95%;
-}
-*/
