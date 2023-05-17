@@ -17,6 +17,7 @@
     padding: 1.5rem 0 0 0;
 
     ul {
+      padding: 0;
     }
 
     li {
@@ -38,7 +39,6 @@
       a {
         line-height: 0;
       }
-
     }
   }
 
@@ -51,10 +51,16 @@
     }
 
     .chapter-list {
-      padding: 0 0 0 0.5rem;
+      padding: 0 0 0 0;
 
       li {
-        padding: 0 0 .6rem 0;
+        padding: 0.1rem;
+        margin: 0 0 .3rem 0;
+
+        &:hover { //TODO: use mixin?
+          background-color: red;
+          border-radius: .5rem;
+        }
       }
     }
 
