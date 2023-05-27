@@ -1,11 +1,11 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif; //This is just a copy of the fonts from the vuepress fonts, personally I think we should select a single CDN font for all platforms then just use these as fallbacks.
 $primary-color: #fff;
 
 //selectively taken from https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css
 
 *, ::before, ::after { box-sizing: border-box; }
 
-html { line-sizing: normal; }
+html { line-height: normal; }
 
 body { margin: 0; }
 

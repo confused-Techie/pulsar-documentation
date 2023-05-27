@@ -1,5 +1,5 @@
 .document {
-  margin-left: auto;
+  margin-left: 5rem;
   margin-right: auto;
   display: flex;
   justify-content: center;
@@ -7,7 +7,6 @@
   overflow-y: auto;
 
   .page {
-    width: 700px;
-    line-height: 1.8rem;
+    width: 800px;
   }
 }

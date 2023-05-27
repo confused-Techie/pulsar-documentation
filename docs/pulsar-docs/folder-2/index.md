@@ -1,5 +1,5 @@
 ---
-Title: Folder 2
+title: Folder 2
 curbook: Folder 2
 ---
 

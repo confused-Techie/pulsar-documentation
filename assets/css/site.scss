@@ -39,6 +39,7 @@ a { //TODO: set link to theme colour var
     grid-template-columns: 300px minmax(0, 1fr);
     grid-gap: 16px;
     margin-top: 70px;
+    padding: 2rem 5rem 0 5rem;
     height: 100vh;
     overflow: hidden;
   }

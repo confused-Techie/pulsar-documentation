@@ -1,5 +1,5 @@
 ---
-Title: Getting Started
+title: Getting Started
 curbook: Getting Started
 ---
 
