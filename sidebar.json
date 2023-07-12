@@ -2,20 +2,14 @@
   "Getting Started": {
     "_link": "/pulsar-docs/getting-started/",
     "_items": {
-      "Why Pulsar": {
-        "_link": "/pulsar-docs/getting-started/why-pulsar.html",
+      "What is Pulsar": {
+        "_link": "/pulsar-docs/getting-started/what-is-pulsar.html",
         "_items": {
-          "The Nucleus of Pulsar": {
-            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-nuceus-of-pulsar"
+          "The Neutron Star at the Center of Pulsar": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-neutron-star-at-the-center-of-pulsar"
           },
-          "The Native Web": {
-            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-native-web"
-          },
-          "JavaScript, Meet C++": {
-            "_link": "/pulsar-docs/getting-started/why-pulsar.html#javascript-meet-c"
-          },
-          "An Open-Source Text Editor": {
-            "_link": "/pulsar-docs/getting-started/why-pulsar.html#an-open-source-text-editor"
+          "The History of Pulsar": {
+            "_link": "/pulsar-docs/getting-started/why-pulsar.html#the-history-of-pulsar"
           }
         }
       },
