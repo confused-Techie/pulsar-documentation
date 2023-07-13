@@ -16,17 +16,20 @@
       "Installing Pulsar": {
         "_link": "/pulsar-docs/getting-started/installing-pulsar.html",
         "_items": {
-          "Install": {
-            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+          "Install: Linux": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#linux"
           },
-          "Package Managers": {
-            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+          "Install: macOS": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#macos"
+          },
+          "Install: Windows": {
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#windows"
           },
           "Updating Pulsar": {
-            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#updating-pulsar"
           },
           "Portable Mode": {
-            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#TODO"
+            "_link": "/pulsar-docs/getting-started/installing-pulsar.html#portable-mode"
           }
         }
       }
