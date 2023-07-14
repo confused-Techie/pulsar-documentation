@@ -1,7 +1,3 @@
----
-title: Glossary
-curbook: Using Pulsar
----
 
 Below is a list of some userful terms used with regard to Pulsar.
 
