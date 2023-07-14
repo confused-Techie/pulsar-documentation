@@ -1,6 +1,6 @@
 ---
 title: Pulsar Basics
-curbook:
+curbook: Using Pulsar
 ---
 ## Pulsar Basics
 
@@ -18,7 +18,7 @@ how to get started with the editor.
 ### Terminology
 
 You can find definitions for all the various terms that we use throughout the
-manual in our [Glossary](../resources/glossary/).
+manual in our [Glossary](../resources/glossary.html).
 
 ### Command Palette
 
